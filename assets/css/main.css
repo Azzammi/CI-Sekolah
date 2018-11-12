@@ -1,0 +1,115 @@
+
+/*// CSS DEPAULT*/
+.panel > .panel-heading{
+	background-image: url('../images/bg-sidebar-title-me.png');
+}
+
+.gallery{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*// MENU */
+.menu{
+	background-image: url('../images/bg-menu.jpg');
+	border-right: 1px solid #FFFFFF;
+}
+
+.sidebar{
+	margin-top: 20px;
+	padding: 0;
+}
+	.sidebar > .panel{
+		margin-left: -15px;
+	}
+	.sidebar > .panel > .panel-body > a > img{
+		margin-bottom: 10px;
+	}
+
+.content{
+	margin-top: 20px;
+	border-radius: 5px;
+}
+	.content > .well, .welcome{
+		margin-right: -15px;
+	}
+	.content > .welcome > .panel-body > h2{
+		margin-top: -3px;
+		color: #0093a0;
+	}
+
+.footer-top{
+	padding-top: 20px;
+	background-color: #ececec;
+}
+.footer-button{
+	padding-top: 0;
+	background-color: #888;
+	
+}
+	.footer-button > p{
+		padding: 15px 0 5px 0;
+		text-align: center;
+		color: #fff;
+	}
+
+/* SUB - HEADER */
+.header-nav{
+    padding: 15px;    
+}
+
+/* !SUB - HEADER */
+
+/* Menu
+====================
+#twd-menu{
+	margin-bottom:20px;
+}
+.normal{
+	padding: 10px;background: #B16B67;
+}
+#twd-menu ul{
+	list-style-type: none;
+	padding: 0;
+}
+	#twd-menu ul li{
+		display: inline-block;
+	}
+		#twd-menu ul li a{
+			display: inline-block;
+			padding:10px;
+			border-radius: 10px;
+			color: #ddd;
+		}
+			#twd-menu ul li a:hover{
+				background:black;
+				color: #fff;
+			}*/
+
+/* Menu When Scroll */
+.fixed {
+	position: fixed;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background: #0B7271;
+	color: #f8f8f8;
+	-webkit-transition: top 400ms ease 0s;
+	-moz-transition: top 400ms ease 0s;
+	-o-transition: top 400ms ease 0s;
+	-ms-transition: top 400ms ease 0s;
+	transition: top 400ms ease 0s;
+	box-shadow: 0 0 40px #222;
+	-webkit-box-shadow: 0 0 40px #222;
+	-moz-box-shadow: 0 0 40px #222;
+}
+.fixed ul{
+	width: 450px;
+	margin: 0 auto;
+}
+
+/* Text Logo*/
+.text-logo{
+    margin-top: 20px;
+}
